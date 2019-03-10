@@ -47,7 +47,7 @@ import sklearn
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python 3, because all modern development on the language is on 3, and the main reason to stay on 2.7 would be for learning packages/programs, but most of those are moving to python 3 as well.
 
 ### Q2. Which Python Version Installed   
 
@@ -55,8 +55,7 @@ In the Terminal:
 
 `python3 --version`
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> Python 3.7.1
  
 
 
