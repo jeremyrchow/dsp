@@ -46,7 +46,7 @@ def read_data(filename):
     for row in file_reader:
         row=row.split(',')
         for column_index, item in enumerate(row):
-            row[column_index] = item.rstrip().lstrip()
+            row[column_index] = item.rstrip()
         data_list.append(row)
     return data_list
 
@@ -74,8 +74,11 @@ def get_dict():
 
 
 my_dict=get_dict()
+print(type(my_dict))
 pp.pprint(my_dict)
 answer=my_dict
+print(answer.keys())
 for key,val in answer.items():
-    assert '{key},{val}'.format(key=' '.join(key), val=','.join(val)) in facultycsv
+    print('{key},{val}'.format(key=' '.join(key),val=','.join(val)))
+assert len(answer) == facultycsv.count('\n')
 print(facultycsv.count('\n'))
