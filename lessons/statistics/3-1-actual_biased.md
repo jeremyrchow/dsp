@@ -20,6 +20,7 @@ print('Biased Mean',biased_kids_pmf.Mean())
 ```
 ![](https://github.com/jeremyrchow/dsp/blob/master/prework/statistics/graphs/number_of_kids_pmf.png)
 
-Actual Mean 1.024205155043831
+Actual Mean 1.024205155043831  
+
 Biased Mean 1.6518303924150641
 
