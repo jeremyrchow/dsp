@@ -18,7 +18,7 @@ print('Actual Mean',unbiased_kids_pmf.Mean())
 print('Biased Mean',biased_kids_pmf.Mean())
 
 ```
-![](https://github.com/jeremyrchow/dsp/tree/master/prework/statistics/graphs/number_of_kids_pmf.png)
+![](https://github.com/jeremyrchow/dsp/blob/master/prework/statistics/graphs/number_of_kids_pmf.png)
 
 Actual Mean 1.024205155043831
 Biased Mean 1.6518303924150641
